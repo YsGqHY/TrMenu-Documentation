@@ -30,6 +30,9 @@ material: 'repo:%custom_variable_whichreturnstheid%'
 
 ```yaml
 material: '{"type":"DIAMOND_SWORD","data":0,"amount":1,"meta":{"Damage":{"type":"INT","data":0}}}'
+
+# 玩家头颅
+material: '{"type":"SKULL_ITEM","data":3,"amount":1,"meta":{"SkullOwner":{"Name":{"type":"STRING","data":"%player_name%"}}}}'
 ```
 
 ## 头颅材质
