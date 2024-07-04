@@ -20,5 +20,5 @@ description: TrMenu 是一款付费开源插件，致力于提供最优质的菜
 
 * 本插件完全开源，提供完整构建文件，可以自行构建
 
-{% embed url="https://github.com/TrMenu/TrMenu" %}
+{% embed url="https://github.com/Dreeam-qwq/TrMenu" %}
 
