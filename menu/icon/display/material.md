@@ -29,15 +29,11 @@ material: 'repo:%custom_variable_whichreturnstheid%'
 * 该方法能支持一切形式的物品
 
 ```yaml
-material: '{"type":"DIAMOND_SWORD","data":0,"amount":1,"meta":{"Damage":{"type":"INT","data":0}}}'
-
-# 玩家头颅
-material: '{"type":"SKULL_ITEM","data":3,"amount":1,"meta":{"SkullOwner":{"Name":{"type":"STRING","data":"%player_name%"}}}}'
+material: '{Count:1b,id:"minecraft:grass_block"}'
 ```
 
 ## 头颅材质
 
-* 已知高版本无法使用头颅材质，可以使用 **转化格式 JSON**
 
 ### 玩家头颅
 
@@ -89,6 +85,64 @@ material: 'source:IA:anotherItemId'
 ```yaml
 material: 'source:ZAPHKIEL:itemId'
 material: 'source:ZL:itemId'
+```
+
+### SXItem
+
+```yaml
+material: 'source:SXITEM:itemId'
+material: 'source:SI:itemId'
+```
+
+### NeigeItems
+
+```yaml
+material: 'source:NEIGEITEMS:itemId'
+material: 'source:NI:itemId'
+```
+
+### EcoItems
+
+```yaml
+material: 'source:ECOITEMS:itemId'
+material: 'source:EI:itemId'
+```
+
+### MMOItems
+
+```yaml
+material: 'source:MMOITEMS:itemId'
+material: 'source:MI:itemId'
+```
+
+### MagicGem
+
+```yaml
+material: 'source:MAGICGEM:itemId'
+material: 'source:MG:itemId'
+```
+
+### HMCCosmetics
+
+```yaml
+material: 'source:HMCCosmetics:itemId'
+material: 'source:HMC:itemId'
+```
+
+### MagicCosmetics
+
+#### 装备
+
+```yaml
+material: 'source:MAGICE:itemId'
+material: 'source:MagicCosmeticsE:itemId'
+```
+
+#### 时装
+
+```yaml
+material: 'source:MAGICI:itemId'
+material: 'source:MagicCosmeticsI:itemId'
 ```
 
 ## \* 材质参数

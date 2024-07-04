@@ -54,6 +54,13 @@ source:ORAXEN:itemId
   * 默认提供**函数**
     * `vars("STRING")` 编译变量，返回 String
     * `varInt("STRING")` 编译变量，返回整型
+* **JEXL**
+* * 需要 jexl 前缀,例如 `condition: 'jexl: player.getHealth() > 20.0'`(有没有感觉和JS差不多?)
+  * 默认提供**对象**
+    * `player`
+    * `bukkitServer`
+    * `utils`
+  
 
 > 弃用 v2 写法原因:
 >

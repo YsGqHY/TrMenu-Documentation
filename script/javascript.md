@@ -13,6 +13,33 @@ TrMenu 的 JavaScript 引擎目前提供以下对象
 * `player` 即 玩家本身
 * `session` 即 me.arasple.mc.trmenu.module.display.MenuSession
 
+### 插件挂钩
+
+可以在 JavaScript 中调用挂钩的插件,比如我想调用 EcoItems 的 API 来获得物品,可以通过`ecoitems.getItem("my_item")`来获得
+
+聪明的你应该已经发现了,绑定到 JavaScript 命名空间的名称是插件名字的全小写
+
+目前支持挂钩的
+
+* EcoItems
+* Floodgate
+* HeadDatabase
+* HMCCosmetics
+* ItemsAdder
+* MagicCosmetics (注意:这个插件的 JS 命名空间是 magicAPI)
+* MagicGem
+* MMOItems
+* NBTAPI
+* NeigeItems
+* Oraxen
+* PlayerPoints
+* SkinsRestorer
+* Skulls
+* SXItem
+* Triton
+* Vault
+* Zaphkiel
+
 ## 函数
 
 TrMenu 的 JavaScript 引擎目前提供以下函数
