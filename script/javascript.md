@@ -39,6 +39,25 @@ TrMenu 的 JavaScript 引擎目前提供以下对象
 * Triton
 * Vault
 * Zaphkiel
+* MythicMobs
+
+如果你并不想要，可以关闭`Export-Hook-Plugin`
+
+### 自定义导出
+
+在`settings.yml`中的`Bindings.Binding-Map`可以将自定义函数/类导出到 JS/JEXL 命名空间
+
+比如
+```yaml
+
+Bindings:
+  Export-Hook-Plugin: true
+  Binding-Map:
+    "Bukkit": "org.bukkit.Bukkit"
+    "EntityType": "org.bukkit.entity.EntityType"
+```
+
+
 
 ## 函数
 
