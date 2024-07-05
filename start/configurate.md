@@ -141,6 +141,7 @@ RegisterCommands:
 
 Bindings:
   Export-Hook-Plugin: true
+  Mozilla-Compat: true
   Binding-Map:
 ```
 {% endcode %}

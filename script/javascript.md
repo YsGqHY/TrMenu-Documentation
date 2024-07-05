@@ -43,21 +43,53 @@ TrMenu 的 JavaScript 引擎目前提供以下对象
 
 如果你并不想要，可以关闭`Export-Hook-Plugin`
 
-### 自定义导出
+### Java 命名空间
 
-在`settings.yml`中的`Bindings.Binding-Map`可以将自定义函数/类导出到 JS/JEXL 命名空间
+#### 别名
+
+在`settings.yml`中的`Bindings.Binding-Map`可以将类以别名导出到 JS 命名空间
 
 比如
 ```yaml
 
 Bindings:
-  Export-Hook-Plugin: true
   Binding-Map:
     "Bukkit": "org.bukkit.Bukkit"
     "EntityType": "org.bukkit.entity.EntityType"
 ```
 
+#### 导入
 
+`importClass(className)` 可以将类导入到当前命名空间,比如
+
+```javascript
+importClass(java.lang.System)
+System.out.println("TrMenu 真 NB")
+```
+
+`importPackage(packageName)`可以将整个包导入到当前命名空间,比如
+
+```javascript
+importPackage(java.lang)
+System.out.println("TrMenu 真 NB")
+```
+
+### 直接访问
+
+支持直接访问 Java 命名空间
+
+```javascript
+java.lang.System.out.println("TrMenu 真 NB")
+```
+
+### Java.type
+
+创建别名
+
+```javascript
+var System = Java.type("java.lang.System")
+System.out.println("TrMenu 真 NB")
+```
 
 ## 函数
 
