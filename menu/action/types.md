@@ -251,6 +251,23 @@
 
 ## 功能
 
+
+### 编辑物品
+
+这个action非常复杂，能不能学会就看你自己了
+
+表达式`edit-item: <operation> <item> <op_type> <操作参数>`
+
+其中，目前支持的`op_type`有
+
+* `material` 材质
+* `name` 名称
+* `lore` LORE
+* `flags` 标志
+* `customModelData` 自定义模型数据
+* `enchantment` 附魔(社区版新增)
+* `color` 颜色(社区版新增)
+
 ### 扣除和给予物品
 
 ```yaml

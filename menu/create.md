@@ -134,3 +134,6 @@ Functions:
 * 内置脚本
 * 周期任务
 
+### 菜单国际化(社区版新增)
+
+太复杂了，自己去看[TrMenu PR #64](https://github.com/Dreeam-qwq/TrMenu/pull/64)
