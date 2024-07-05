@@ -145,6 +145,13 @@ material: 'source:MAGICI:itemId'
 material: 'source:MagicCosmeticsI:itemId'
 ```
 
+### MythicMobs
+
+```yaml
+material: 'source:MYTHICMOBS:itemId'
+material: 'source:MM:itemId'
+```
+
 ## \* 材质参数
 
 ### 附加值
