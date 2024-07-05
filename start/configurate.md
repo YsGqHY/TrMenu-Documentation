@@ -133,6 +133,15 @@ RegisterCommands:
       - 'tell: &7Argument `example` Required!'
     arguments:
       example: 'open: example'
+
+#
+# JS/JEXL 命名导出
+# 具体注解详见 [SCRIPT-JAVASCRIPT] 章节
+#
+
+Bindings:
+  Export-Hook-Plugin: true
+  Binding-Map:
 ```
 {% endcode %}
 
