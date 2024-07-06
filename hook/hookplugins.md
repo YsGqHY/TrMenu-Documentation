@@ -14,7 +14,6 @@
 | NeigeItems     | 物品材质      |
 | SXItem         | 物品材质      |
 | EcoItems       | 物品材质      |
-| HMCCosmetics   | 时装        |
 | MagicCosmetics | 时装        |
 | MagicGem       | 物品材质      |
 | Triton         | 语言        |
