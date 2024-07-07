@@ -24,6 +24,7 @@ TrMenu 的 JavaScript 引擎目前提供以下对象
 * EcoItems
 * Floodgate
 * HeadDatabase
+* HMCCosmetics
 * ItemsAdder
 * MagicCosmetics (注意:这个插件的 JS 命名空间是 magicAPI)
 * MagicGem
@@ -79,12 +80,6 @@ System.out.println("TrMenu 真 NB")
 
 ```javascript
 java.lang.System.out.println("TrMenu 真 NB")
-```
-
-#### 奇技淫巧
-
-```javascript
-java.lang["System"].out.println("TrMenu 真 NB")
 ```
 
 ### Java.type
