@@ -60,6 +60,10 @@ Bindings:
 
 #### 导入
 
+如果你不需要,可以关闭`Mozilla-Compat`以节省性能
+
+(不推荐使用!)
+
 `importClass(className)` 可以将类导入到当前命名空间,比如
 
 ```javascript
@@ -76,10 +80,18 @@ System.out.println("TrMenu 真 NB")
 
 ### 直接访问
 
+(不推荐!!!)
+
 支持直接访问 Java 命名空间
 
 ```javascript
 java.lang.System.out.println("TrMenu 真 NB")
+```
+
+#### 奇技淫巧
+
+```javascript
+java.lang["System"].out.println("TrMenu 真 NB")
 ```
 
 ### Java.type

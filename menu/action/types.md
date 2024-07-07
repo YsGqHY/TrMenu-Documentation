@@ -15,6 +15,8 @@
 
 在 3.3.2e 之后，tell 支持发送 TabooLib Components 文本，以实现更加复杂的对话
 
+如果你不需要,可以关闭`Using-Component`
+
 [教程](https://plugins.ptms.ink/function/components/basic)
 
 ## 强制聊天
