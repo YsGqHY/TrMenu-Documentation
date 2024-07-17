@@ -95,6 +95,7 @@ Menu:
 # 开启Kether宽容解析语句后无需添加 * 号
 #
 Action:
+  Using-Component: true
   # 捕获器
   Inputer:
     # 取消词（正则）
@@ -139,7 +140,7 @@ RegisterCommands:
 # 具体注解详见 [SCRIPT-JAVASCRIPT] 章节
 #
 
-Bindings:
+Script:
   Export-Hook-Plugin: true
   Mozilla-Compat: true
   Binding-Map:

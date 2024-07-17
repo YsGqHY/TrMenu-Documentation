@@ -122,6 +122,13 @@ material: 'source:MAGICGEM:itemId'
 material: 'source:MG:itemId'
 ```
 
+### HMCCosmetics
+
+```yaml
+material: 'source:HMCCosmetics:itemId'
+material: 'source:HMC:itemId'
+```
+
 ### MagicCosmetics
 
 #### 装备

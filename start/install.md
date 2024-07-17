@@ -19,10 +19,7 @@ TrMenu 需要在联网条件下载安装
 | Mohist \(Forge\)         | √          |
 | Other unknown servers so | uncertain  |
 
-
-* 必须前置:[Item NBT API](https://www.spigotmc.org/resources/nbt-api.7939/)
-
-* 推荐前置：[PlaceholderAPI](http://ci.extendedclip.com/job/PlaceholderAPI/) \(必须保证版本在 **v2.10.9 +**\)
+* 推荐前置：[PlaceholderAPI](http://ci.extendedclip.com/job/PlaceholderAPI/) \(必须保证版本在 **v2.10.9 +**\) [Item NBT API](https://www.spigotmc.org/resources/nbt-api.7939/)
 
 ## 安装
 

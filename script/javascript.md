@@ -24,6 +24,7 @@ TrMenu 的 JavaScript 引擎目前提供以下对象
 * EcoItems
 * Floodgate
 * HeadDatabase
+* HMCCosmetics
 * ItemsAdder
 * MagicCosmetics (注意:这个插件的 JS 命名空间是 magicAPI)
 * MagicGem
@@ -55,30 +56,6 @@ Bindings:
   Binding-Map:
     "Bukkit": "org.bukkit.Bukkit"
     "EntityType": "org.bukkit.entity.EntityType"
-```
-
-#### 导入
-
-`importClass(className)` 可以将类导入到当前命名空间,比如
-
-```javascript
-importClass(java.lang.System)
-System.out.println("TrMenu 真 NB")
-```
-
-`importPackage(packageName)`可以将整个包导入到当前命名空间,比如
-
-```javascript
-importPackage(java.lang)
-System.out.println("TrMenu 真 NB")
-```
-
-### 直接访问
-
-支持直接访问 Java 命名空间
-
-```javascript
-java.lang.System.out.println("TrMenu 真 NB")
 ```
 
 #### 奇技淫巧
@@ -117,3 +94,44 @@ TrMenu 的 JavaScript 引擎目前提供以下函数
 
 {% embed url="https://github.com/TrPlugins/TrMenu/blob/stable/v3/plugin/src/main/kotlin/trplugins/menu/module/internal/script/js/Assist.kt" caption="TrMenu/Assist.kt" %}
 
+## TrMenu GraalJS
+
+**该功能仍处于实验性**
+
+让 TrMenu 使用 GraalJS,根据性能测试,GraalJS 的执行性能在 Nashorn 的两倍以上,并且支持最新的JS语法
+
+### 安装
+
+GraalJS 需要在 GraalVM 上才可以完全发挥性能,其他 JDK 也能用
+
+[下载 TrMenu GraalJS](https://github.com/lilingfengdev/TrMenu-Graal/releases/download/latest/TrMenu-Graal-all.jar),作为插件进行安装
+
+### 语法扩展
+
+#### 包加载
+
+```javascript
+Java.addToClasspath(location)
+```
+
+将指定位置.jar（文件或目录路径字符串）添加到 Java 的类路径中
+
+#### JS执行
+
+```javascript
+load(source)
+```
+
+加载（解析并执行）指定的 JavaScript 源代码
+
+#### 包访问
+
+GraalVM JavaScript 提供了一个全局属性：`Packages`
+
+```javascript
+Packages.java.lang.System.out.println("TrMenu 真 NB")
+```
+
+#### TODO
+
+不想写了(:,还有()
