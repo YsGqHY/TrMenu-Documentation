@@ -29,8 +29,24 @@ material: 'repo:%custom_variable_whichreturnstheid%'
 * 该方法能支持一切形式的物品
 
 ```yaml
-material: '{Count:1b,id:"minecraft:grass_block"}'
+material: '{"item":{Count:1b,id:"minecraft:grass_block"}}'
 ```
+## 模组物品
+
+在 3.3.3a 之后支持直接引入mod物品,无需NBT(3.3.3a之前只能通过NBT)
+
+```yaml
+material: 'mod:torcherino:compressed_lanterino'
+material: 'mod:原版模组命名域,可通过give查看'
+```
+
+### 支持的混合端
+
+| 服务端                   | 版本   |
+|:----------------------|:-----|
+| CatSever              | 未知   |
+| Arclight(1.20.1Forge) | 通过测试 |
+| Mohist(1.20.1Forge)   | 通过测试 |
 
 ## 头颅材质
 
