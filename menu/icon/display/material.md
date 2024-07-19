@@ -42,7 +42,7 @@ material: 'mod:原版模组命名域,可通过give查看'
 
 ### 支持的混合端
 
-| 服务端                   | 版本   |
+| 服务端                   | 支持状态   |
 |:----------------------|:-----|
 | CatSever              | 未知   |
 | Arclight(1.20.1Forge) | 通过测试 |
@@ -127,8 +127,8 @@ material: 'source:EI:itemId'
 ### MMOItems
 
 ```yaml
-material: 'source:MMOITEMS:itemId'
-material: 'source:MI:itemId'
+material: 'source:MMOITEMS:type:itemId'
+material: 'source:MI:type:itemId'
 ```
 
 ### MagicGem
@@ -167,6 +167,34 @@ material: 'source:MagicCosmeticsI:itemId'
 material: 'source:MYTHICMOBS:itemId'
 material: 'source:MM:itemId'
 ```
+
+### 自定义物品源(JS物品源)
+
+**该功能非常强大,可以在无需菜单插件支持的情况下，获取自定义物品**
+
+以 TrMenu 不支持的插件[HeadDB](https://github.com/TheSilentPro/HeadDB) 为例
+
+通过查询文档可知，该插件的API类为tsp.headdb.core.api.HeadAPI
+
+于是就有
+
+```yaml
+material: 'source:JS:Java.type("tsp.headdb.core.api.HeadAPI").getHeadByExactName(你的头颅名称).getItem(player)
+```
+
+如果你在映射中创建了`headapi`,对应`tsp.headdb.core.api.HeadAPI`,那你可以这么用
+
+```yaml
+material: 'source:JS:headapi.getHeadByExactName(你的头颅名称).getItem(player)
+```
+
+如果安装了GraalJs 语言扩展，可以这么干
+
+```yaml
+material: 'source:JS:Packages.tsp.headdb.core.api.HeadAPI.getHeadByExactName(你的头颅名称).getItem(player)
+```
+
+(其实这里还要进行空值判断，但我懒得写了）
 
 ## \* 材质参数
 
