@@ -13,6 +13,12 @@
 - 'tell: First Line\nSecond Line!'
 ```
 
+在 3.3.2e 之后，tell 支持发送 TabooLib Components 文本，以实现更加复杂的对话
+
+如果你不需要,可以关闭`Using-Component`
+
+[教程](https://plugins.ptms.ink/function/components/basic)
+
 ## 强制聊天
 
 > 让玩家发送一条消息到聊天框
@@ -45,7 +51,7 @@
 - 'title: `&c&lPermission Required` `&7&lYou need permission &6&ltrmenu.use &7&lto open this menu` 15 20 15'
 ```
 
-* TITLE 后对应的三个整数型参数分别为 FadeIn, Stay, FadeOut \(渐入、停留、渐出\) 的时间，可以不设置
+* TITLE 后对应的三个整数型参数分别为 FadeIn, Stay, FadeOut (渐入、停留、渐出) 的时间，可以不设置
 
 ## 发送 Actionbar
 
@@ -136,7 +142,7 @@
 - 'close'
 ```
 
-### 关闭菜单 \(静默\)
+### 关闭菜单 (静默)
 
 > 通过此形式关闭菜单，将不会执行 Events.Close 的动作组
 
@@ -163,7 +169,7 @@
 - 'open: Browser:3'
 ```
 
-### 开启菜单 \(静默\)
+### 开启菜单 (静默)
 
 > 通过此形式开启菜单，将不会执行 Events.Open 的动作组
 
@@ -236,7 +242,7 @@
 >
 > GlobalData - 全局本地文件存储的数据，不针对玩家
 
-* 操作类型 SET \[key\] \[value\]、DEL \[key\]
+* 操作类型 SET \[key] \[value]、DEL \[key]
 * 下面以 Meta 为例
 
 ```yaml
@@ -250,6 +256,22 @@
 ```
 
 ## 功能
+
+### 编辑物品
+
+这个action非常复杂，能不能学会就看你自己了
+
+表达式`edit-item: <operation> <item> <op_type> <操作参数>`
+
+其中，目前支持的`op_type`有
+
+* `material` 材质
+* `name` 名称
+* `lore` LORE
+* `flags` 标志
+* `customModelData` 自定义模型数据
+* `enchantment` 附魔(社区版新增)
+* `color` 颜色(社区版新增)
 
 ### 扣除和给予物品
 
@@ -282,7 +304,7 @@
 ```
 
 * Money 控制仅支持和 Vault 挂钩的经济系统
-* 除 Money 以外，还支持 Points （挂钩 PlayerPoints），操作同理，这里不再赘述 
+* 除 Money 以外，还支持 Points （挂钩 PlayerPoints），操作同理，这里不再赘述
 
 ### 捕获器
 
@@ -332,7 +354,6 @@
           deny: 'tell: &cPlayer {meta:input} is offline'
 ```
 {% endtab %}
-
 {% endtabs %}
 
 ## 逻辑
@@ -384,4 +405,3 @@ Events:
       tell *"You dont have permission"
     }
 ```
-

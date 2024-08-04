@@ -2,7 +2,7 @@
 
 ## 基础
 
-TrMenu 的菜单是以 **YAML** \(.yml\) 文件格式配置、读取加载的
+TrMenu 的菜单是以 **YAML** (.yml) 文件格式配置、读取加载的
 
 因此，创建一个新的菜单，你可以通过新建一个 YAML 文件开始
 
@@ -134,3 +134,6 @@ Functions:
 * 内置脚本
 * 周期任务
 
+### 菜单国际化(社区版新增)
+
+太复杂了，自己去看[TrMenu PR #64](https://github.com/Dreeam-qwq/TrMenu/pull/64)

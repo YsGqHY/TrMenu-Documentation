@@ -7,7 +7,7 @@ description: 初次安装本插件后，会在插件目录下产生一些文件
 ## 文件
 
 {% tabs %}
-{% tab title="lang/zh\_CN.yml" %}
+{% tab title="lang/zh:CN.yml" %}
 TLocale 语言文件, 你可以编辑本插件几乎所有的消息
 {% endtab %}
 
@@ -36,7 +36,7 @@ TrMenu 的主配置文件
 
 ## 设置
 
-{% code title="settings.yml \(v3.0 BETA-2\)" %}
+{% code title="settings.yml (v3.0 BETA-2)" %}
 ```yaml
 #
 # 插件的选项
@@ -95,6 +95,7 @@ Menu:
 # 开启Kether宽容解析语句后无需添加 * 号
 #
 Action:
+  Using-Component: true
   # 捕获器
   Inputer:
     # 取消词（正则）
@@ -133,10 +134,19 @@ RegisterCommands:
       - 'tell: &7Argument `example` Required!'
     arguments:
       example: 'open: example'
+
+#
+# JS/JEXL 命名导出
+# 具体注解详见 [SCRIPT-JAVASCRIPT] 章节
+#
+
+Script:
+  Export-Hook-Plugin: true
+  Mozilla-Compat: true
+  Binding-Map:
 ```
 {% endcode %}
 
 ## 语言
 
 TODO
-

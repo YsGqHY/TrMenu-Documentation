@@ -43,7 +43,7 @@ description: 图标交互反应
 >
 > SHIFT\_RIGHT
 >
-> OFFHAND
+> OFFHAND (注意,目前无法在1.12.2上使用)
 >
 > NUMBER\_KEY
 >
@@ -89,7 +89,6 @@ description: 图标交互反应
 
 ## 反应
 
-{% page-ref page="../action/reactions.md" %}
-
-
-
+{% content-ref url="../action/reactions.md" %}
+[reactions.md](../action/reactions.md)
+{% endcontent-ref %}
