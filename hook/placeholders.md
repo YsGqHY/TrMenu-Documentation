@@ -10,7 +10,7 @@
 
 ## Metadata 数据
 
-> %trmenu\_meta\_&lt;key&gt;
+> %trmenu\_meta\_&lt;key&gt;%
 >
 > %trmenu\_data\_&lt;key&gt;%
 
