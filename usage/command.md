@@ -22,9 +22,10 @@ description: '[] 为必填参数，<> 为选填参数'
 ## Open
 
 > 打开指定菜单
+>
 > 仅限 OP 可以使用指令打开，若需要玩家打开请给菜单编写 [Bindings](https://hhhhhy.gitbook.io/trmenu-v3/menu/configuration/bindings) 选项
 
-* 权限: `~~trmenu.command.open~~` 
+* 权限: ~~`trmenu.command.open`~~
 * 参数
   * \[ID\]:&lt;Page&gt; 菜单名称和指定页码
   * &lt;Player&gt; 指定玩家，不填则默认自己
