@@ -7,6 +7,8 @@ description: '[] 为必填参数，<> 为选填参数'
 ## 主命令
 
 > 插件的主命令
+>
+> 正常玩家无需设置任何权限
 
 * 名称：`trmenu` `menu` 
 * 权限: `trmenu.access` 
