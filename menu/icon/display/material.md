@@ -168,6 +168,13 @@ material: 'source:MYTHICMOBS:itemId'
 material: 'source:MM:itemId'
 ```
 
+### AzureFlow
+
+```yaml
+material: 'source:AZUREFLOW:itemId'
+material: 'source:AF:itemId'
+```
+
 ### 自定义物品源(JS物品源)
 
 **该功能非常强大,可以在无需菜单插件支持的情况下，获取自定义物品**
