@@ -18,7 +18,7 @@ amount: '${js: varInt("%server_time_s%") + 1}'
 shiny: true
 
 # 动态效果（条件表达式）
-shiny: 'all [perm *vip.user money *100]'
+shiny: 'all [ perm *vip.user money *100 ]'
 ```
 
 ## 标签
@@ -47,3 +47,14 @@ nbt:
 
 * 支持使用变量
 
+## Item Model
+
+```yaml
+item_model: fish
+```
+
+## Tooltip Style
+
+```yaml
+tooltip: blue
+```
