@@ -21,7 +21,7 @@
 {ke: <Expression>}
 ```
 
-## JavaScriot 函数
+## JavaScript 函数
 
 ```text
 {js: <Expression>}
