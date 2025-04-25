@@ -20,3 +20,6 @@
 | Triton         | 语言        |
 | MythicMobs     | 物品材质        |
 | AzureFlow      | 物品材质        |
+| Nexo           | 物品材质        |
+| CraftEngine    | 物品材质        |
+| PxRpg          | 物品材质        |
