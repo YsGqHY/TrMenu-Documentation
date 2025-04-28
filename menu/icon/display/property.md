@@ -58,3 +58,10 @@ item_model: fish
 ```yaml
 tooltip: blue
 ```
+
+## Hide Tooltip
+
+```yaml
+hide_tooltip: true
+hide_tool: 'all [ perm *vip.user money *100 ]'
+```
