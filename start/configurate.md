@@ -36,7 +36,7 @@ TrMenu 的主配置文件
 
 ## 设置
 
-{% code title="settings.yml \(v3.0 BETA-2\)" %}
+{% code title="settings.yml \(v3.5.0\)" %}
 ```yaml
 #
 # 插件的选项
