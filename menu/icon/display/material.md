@@ -221,7 +221,7 @@ material: 'source:JS:headapi.getHeadByExactName(你的头颅名称).getItem(play
 material: 'source:JS:Packages.tsp.headdb.core.api.HeadAPI.getHeadByExactName(你的头颅名称).getItem(player)
 ```
 
-(其实这里还要进行空值判断，但我懒得写了）
+（其实这里还要进行空值判断，但我懒得写了）
 
 ## \* 材质参数
 
