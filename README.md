@@ -23,7 +23,9 @@ TrMenu 是基于 [TabooLib](https://docs.tabooproject.org/) 开发，发布于 *
 
 ## 附注
 
-本文档可能更偏向技术性说明，入门者可以尝试配合查看以下**社区文档**方便理解上手
+TrMenu 插件的其他文档：
 
+{% embed url="https://taboo.8aka.org/TrMenu" caption="本文档镜像地址" %}
+{% embed url="https://bukkit.wiki/plugins/plugins/trmenu" caption="本文档镜像地址" %}
+{% embed url="https://docs.qq.com/aio/DWWV6SFVuWmlES1po" caption="入门级学习文档" %}
 {% embed url="https://wiki.ptms.ink/index.php?title=%E7%A4%BE%E5%8C%BA:TrMenu" caption="TrMenu 社区教程" %}
-
