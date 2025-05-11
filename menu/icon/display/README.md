@@ -14,7 +14,7 @@ description: 图标的显示属性（子图标 & 默认图标 通用）
     # 显示部分
     display:
       # 材质，支持多个，动态更新
-      material: '' 
+      material: ''
       # 名称，支持多个，动态更新
       name: ''
       # Lore 描述，支持多组，动态更新

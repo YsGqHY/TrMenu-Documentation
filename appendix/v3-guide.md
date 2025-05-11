@@ -60,7 +60,7 @@ source:ORAXEN:itemId
     * `player`
     * `bukkitServer`
     * `utils`
-  
+
 
 > 弃用 v2 写法原因:
 >
@@ -191,6 +191,3 @@ java.lang.AbstractMethodError: org.sqlite.Conn.isValid(I)Z
 对于正在运行的大型服务器，且或菜单量大的，建议在单独测试各个菜单后考虑升级
 
 旧版本已停止维护和支持，不再处理遗留问题
-
-
-
