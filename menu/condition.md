@@ -20,8 +20,8 @@ Kether 表达式直接使用，JavaScript 表达式需加以 `js:`  前缀且规
 
 例如创建一个当玩家有 `vip.user` 权限或余额大于等于 `1000` 时才成立的条件
 
-* Kether: `any [ perm *vip.user money *1000 ]` 
-* JavaSctipt: `js: player.hasPermission("vip.user") || utils.hasMoney(player, 1000.0)` 
+* Kether: `any [ perm *vip.user money *1000 ]`
+* JavaSctipt: `js: player.hasPermission("vip.user") || utils.hasMoney(player, 1000.0)`
 * JEXL `jexl: player.hasPermission("vip.user") or utils.hasMoney(player, 1000.0)`
 
 三种语法的格式可用通过 `SCRIPT` 章节进一步学习

@@ -11,10 +11,10 @@ description: TrMenu 还支持以配置文件中的节点作为变量获取, 避�
 E.g:
 {node: Title}
  -> 获取菜单的 Title
- 
+
 {node: Icons.A.display.name}
  -> 获取图标 A 的展示名称
- 
+
 {node: Icons.@iconid@.display.name}
  -> 如果该变量存在 B 的任意支持函数变量的区域中, 将获取图标 B 的展示名称
 ```
