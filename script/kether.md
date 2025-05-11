@@ -2,11 +2,10 @@
 
 ## 学习
 
-![](https://kether.tabooproject.org/static/images/ketherx.png)
+![](https://gh-proxy.com/github.com/8aka-Team/TabooLib-guide/blob/main/static/img/icon.png)
 
-{% embed url="https://kether.tabooproject.org" caption="KetherX 中文文档" %}
+{% embed url="https://taboo.8aka.org/kether-list" caption="Kether 动作列表" %}
 
 ## 注意
 
 Kether 条件使用在图标、动作中时，应**不包含**任何延时、滞后返回的内容
-
