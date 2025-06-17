@@ -153,6 +153,8 @@ Menu:
 #
 Action:
   Using-Component: true
+  # 启用标题解析 TabooLib Component 文本, 开启后 title 将会被解析为 json 使用
+  Title-Using-Component: true
   # 捕获器
   Inputer:
     # 取消词（正则）
