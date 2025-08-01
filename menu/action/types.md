@@ -328,7 +328,7 @@
 #### 配置
 
 {% tabs %}
-{% tab title="聊天框" %}
+{% tab title="告示牌" %}
 ```yaml
 - catcher:
     amount:
