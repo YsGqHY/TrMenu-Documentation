@@ -40,6 +40,10 @@ TrMenu 的 JavaScript 引擎目前提供以下对象
 * Vault
 * Zaphkiel
 * MythicMobs
+* AzureFlow
+* CraftEngine
+* Nexo
+* PxRpg
 
 如果你并不想要，可以关闭`Export-Hook-Plugin`
 

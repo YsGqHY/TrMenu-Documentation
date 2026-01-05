@@ -232,6 +232,22 @@
 - 'reset'
 ```
 
+### 刷新玩家库存
+
+> 刷新玩家背包的物品显示
+
+```yaml
+- 'reload-inventory'
+```
+
+### 更新语言
+
+> 更新玩家的语言环境，用于多语言支持
+
+```yaml
+- 'update-lang'
+```
+
 ### 数据操作
 
 > TrMenu 所提供的数据功能分三类
@@ -271,8 +287,8 @@
 * `lore` LORE
 * `flags` 标志
 * `customModelData` 自定义模型数据
-* `enchantment` 附魔(社区版新增)
-* `color` 颜色(社区版新增)
+* `enchantment` 附魔
+* `color` 颜色
 
 ### 扣除和给予物品
 
@@ -386,6 +402,14 @@
 
 ```yaml
 - 'js: player.sendMessage("Hello World!")'
+```
+
+### Jexl 脚本执行
+
+> 执行 Jexl 表达式
+
+```yaml
+- 'jexl: player.name'
 ```
 
 ### Kether 脚本执行
