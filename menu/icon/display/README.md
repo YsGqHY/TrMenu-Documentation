@@ -28,6 +28,16 @@ description: 图标的显示属性（子图标 & 默认图标 通用）
       amount: ''
       # 发光效果
       shiny: 'true'
+      # 无法破坏
+      unbreakable: false
+      # 数据值 (Damage)
+      data: 0
+      # 物品模型 (1.21+)
+      item_model: ''
+      # 提示文本样式 (1.21+)
+      tooltip: ''
+      # 隐藏提示文本 (1.21+)
+      hide_tooltip: false
 
 ```
 

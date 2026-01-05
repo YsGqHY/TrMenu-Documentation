@@ -65,3 +65,19 @@ tooltip: blue
 hide_tooltip: true
 hide_tool: 'all [ perm *vip.user money *100 ]'
 ```
+
+## 无法破坏
+
+```yaml
+unbreakable: true
+unbreakable: 'all [ perm *vip.user ]'
+```
+
+## 数据值
+
+```yaml
+data: 0
+data: '${js: 10}'
+```
+
+> 对应物品的 Damage 值 (如羊毛颜色、工具耐久)
