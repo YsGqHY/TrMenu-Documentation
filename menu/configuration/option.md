@@ -26,6 +26,9 @@ Options:
   Min-Click-Delay: 200
   # 强制需要依赖的 PlaceholderAPI 拓展变量
   Depend-Expansions: ['server', 'player', 'progress']
+  # 是否启用虚假 OP 执行命令机制 (默认开启)
+  # 若关闭，则使用原生 setOp 方式执行
+  Command-Fake-Op: true
 ```
 
 ## 注意
