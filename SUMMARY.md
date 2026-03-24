@@ -15,6 +15,7 @@
   * [选项](menu/configuration/option.md)
   * [绑定](menu/configuration/bindings.md)
   * [事件](menu/configuration/event.md)
+  * [Dialog](menu/configuration/dialog.md)
   * [内置函数](menu/configuration/internal-functions.md)
   * [周期任务](menu/configuration/tasks.md)
 * [图标](menu/icon/README.md)
