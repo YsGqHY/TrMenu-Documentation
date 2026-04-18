@@ -28,6 +28,9 @@ description: 图标的显示属性（子图标 & 默认图标 通用）
       amount: ''
       # 发光效果
       shiny: 'true'
+      # 物品附魔
+      enchant:
+        accumulating: 1
       # 无法破坏
       unbreakable: false
       # 数据值 (Damage)

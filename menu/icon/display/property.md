@@ -21,6 +21,25 @@ shiny: true
 shiny: 'all [ perm *vip.user money *100 ]'
 ```
 
+如果你要给图标真正添加附魔，而不只是做发光效果，请使用下面的 `enchant` 节点。
+
+## 附魔
+
+```yaml
+enchant:
+  accumulating: 1
+
+enchant:
+  sharpness: 5
+  unbreaking: 3
+```
+
+* 写在 `display` 节点下
+* 键名是附魔 ID，值是附魔等级
+* `accumulating` 这里只是附魔 ID 示例，只有服务器能识别到的附魔才会生效
+* 可以同时写多个附魔
+
+
 ## 标签
 
 ```yaml
