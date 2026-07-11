@@ -184,8 +184,8 @@ material: 'source:NEXO:itemId'
 ### CraftEngine
 
 ```yaml
-material: 'source:CRAFTENGINE:itemId'
-material: 'source:CE:itemId'
+material: 'source:CRAFTENGINE:namespace:itemId'
+material: 'source:CE:namespace:itemId'
 ```
 
 ### PxRpg
