@@ -5,32 +5,54 @@ description: TrMenu 菜单文件字符串颜色代码
 # 多彩颜色
 
 ## 原生 16 色 (对于 **任意**)
+
 ```text
-(& or §) + (0-9 or a-f)
+(& 或 §) + (0-9 或 a-f)
 ```
 
 ## Hex 颜色 (对于 **1.16+**)
+
 ```text
-&{FFFFFF} or &{#FFFFFF} or &{256,256,256}
+&#RRGGBB 或 <#RRGGBB> 或 #RRGGBB
 ```
 
 ## 渐变
-```text
-Usage:
-<gradient(or 'gradient')#<speed(ignorable)>:<hex range>>This is a Gradient, It's are beautifully! Do U like it?<loop(or 'l')>
 
-E.g:
-<g#2:#ffffff:#bbbbbb>text<l>
-<g#2:#ffffff:#bbbbbb:#cccccc:#777777>text<l>
-<g:#ffffff:#bbbbbb>text<l>
+#### 用法:
+
+```text
+<gradient(或 'g') [#{速度}] :#RRGGBB:#RRGGBB [:#RRGGBB] (或 '#RGB') [:loop] (或 'l' 或 'L')>
 ```
+[  ] 内为可选参数
+
+至少有两个 Hex 颜色
+
+loop 为循环模式
+
+{% hint style="info" %}
+开启循环模式后，渐变将固定以 30 个字符 为一个周期重复
+{% endhint %}
+
+#### 示例:
+
+* `<g:#FF0000:#00FF00>` 红-绿 静态
+* `<g:#FF0000:#FFFF00:#00FF00:#0000FF>` 红-黄-绿-蓝 静态
+* `<g:#FFF:#000:l>` 白-黑 以 30 个字符 为一个周期重复 静态
+* `<g#5:#FF0000:#00FF00>` 红-绿 速度5 动态
+
 
 ## 彩虹
-```text
-Usage:
-<rainbow(or 'r')#<speed>:<saturation>:<brightness>>This is a Rainbow, It's are beautifully!<loop(or 'l')>
 
-E.g:
-<r#2:75:100>This is a Rainbow, It's are beaut?<l>
-<r#15:20:50>This is a Rainbow, It's are beaut?<l>
+#### 用法:
+
+```text
+<rainbow(或 'r') [#{速度}] :{饱和度}:{亮度}>
 ```
+
+饱和度和亮度默认为 1 ，可调整范围: 0-1
+
+#### 示例:
+
+* `<r>` 标准彩虹色
+* `<r:0.2:0.5>` 饱和度20% 亮度50% 的彩虹色
+* `<r#3:1:0.8>` 速度3 饱和度默认 亮度80% 的彩虹色
